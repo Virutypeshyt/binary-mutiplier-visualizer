@@ -1,49 +1,60 @@
-# 🔢 Binary Multiplier Visualizer
+# 🔢 Binary Multiplication Learning Simulator
 
-An interactive web-based tool that demonstrates **binary multiplication step-by-step** using the shift-and-add method.
+An interactive web-based simulator that visualizes **binary multiplication step-by-step** using the shift-and-add method, enhanced with real-time explanations and dynamic rule highlighting.
 
 ---
 
 ## 🚀 Overview
 
-Understanding binary multiplication can be confusing when learned only through static examples.
-This project provides a **visual and interactive approach** to help users clearly follow each step involved in the process.
+Binary multiplication is often difficult to understand due to lack of visualization.
+This project transforms the learning process into an **interactive and intuitive experience**, allowing users to observe each step of computation clearly.
 
 ---
 
-## 🧠 Features
+## 🧠 Key Features
 
-* 🔍 Step-by-step visualization of binary multiplication
-* ⚡ Real-time computation using shift-and-add logic
-* 🧾 Displays partial products and final result
-* 🎯 Simple and intuitive user interface
-
----
-
-## 🛠️ Tech Stack
-
-* HTML
-* CSS
-* JavaScript
+* 🎯 Step-by-step binary multiplication
+* ⬅️ Previous / Next step controls
+* ▶️ Autoplay mode for continuous visualization
+* 🔍 Dynamic bit highlighting during execution
+* 📌 Rule-based highlighting (concept ↔ execution link)
+* 🧾 Real-time explanation of each step
+* 🔢 Decimal conversion for better understanding
+* 🎨 Clean, modern UI with smooth animations
 
 ---
 
-## 📸 How It Works
+## 💡 How It Works
 
 1. Enter two binary numbers
-2. Click **Multiply**
-3. View:
+2. Click **Start**
+3. Observe:
 
-   * Each step of multiplication
-   * Bit shifting process
-   * Final binary result
+   * Bit-by-bit processing
+   * Left shift operations
+   * Partial products
+   * Final result
+
+The system highlights:
+
+* The **active bit**
+* The **corresponding binary rule**
+* The **current computation step**
+
+---
+
+## 🖥️ Tech Stack
+
+* **HTML** → Structure
+* **CSS** → Styling & UI/UX
+* **JavaScript** → Logic, interactivity, and visualization
 
 ---
 
 ## 📂 Project Structure
 
 ```
-binary-multiplier-visualizer/
+binary-learning-simulator/
 │── index.html
 │── style.css
 │── script.js
@@ -52,31 +63,32 @@ binary-multiplier-visualizer/
 
 ---
 
-## 🌐 Live Demo
+## 🎯 Use Case
 
-(After deploying with GitHub Pages, add your link here)
+* Students learning Computer Organization
+* Beginners in Digital Electronics
+* Anyone struggling with binary operations
 
 ---
 
-## 🎯 Use Case
+## 🌟 Unique Highlights
 
-This tool is useful for:
-
-* Students learning computer organization
-* Beginners in digital electronics
-* Anyone wanting a clearer understanding of binary operations
+* 🔗 Connects **theory (rules)** with **execution (steps)**
+* 🎮 Interactive learning instead of static examples
+* 🧠 Focus on conceptual clarity, not just computation
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add animations for each step
-* Support for binary division and addition
-* Mobile responsive design
-* Step-by-step manual mode
+* Add binary division & addition modules
+* Interactive quiz / practice mode
+* Mobile responsive version
+* Enhanced animations
 
 ---
 
-## 📌 Author
 
-Made with 💻 for a hackathon project
+## 📌 Conclusion
+
+This project focuses on transforming a
