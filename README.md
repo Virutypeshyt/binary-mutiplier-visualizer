@@ -94,7 +94,7 @@ binary-learning-simulator/
 
 👉 Add your deployed link here
 
-https://your-username.github.io/binary-learning-simulator
+https://virutypeshyt.github.io/binary-mutiplier-visualizer/
 
 
 ⸻
