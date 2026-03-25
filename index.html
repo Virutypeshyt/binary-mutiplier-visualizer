@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Binary Learning Simulator</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- LEFT PANEL -->
+  <div class="panel">
+    <h2>Concept</h2>
+
+    <div class="rules">
+      <p class="rule-title">Binary Multiplication Rules</p>
+
+      <ul>
+        <li id="rule00">0 × 0 = 0</li>
+        <li id="rule01">0 × 1 = 0</li>
+        <li id="rule10">1 × 0 = 0</li>
+        <li id="rule11">1 × 1 = 1</li>
+      </ul>
+
+      <p class="rule-note">
+        Multiply bit-by-bit → shift left → add results
+      </p>
+    </div>
+
+    <h3>Examples</h3>
+    <button onclick="loadExample('101','11')">101 × 11</button>
+    <button onclick="loadExample('110','101')">110 × 101</button>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+    <h1>Binary Learning Simulator</h1>
+    <p class="subtitle">Interactive step-by-step visualization</p>
+
+    <div class="input-box">
+      <input id="num1" placeholder="First binary">
+      <input id="num2" placeholder="Second binary">
+    </div>
+
+    <div class="controls">
+      <button onclick="start()">Start</button>
+      <button onclick="prevStep()">⬅ Prev</button>
+      <button onclick="nextStep()">Next ➡</button>
+      <button onclick="autoPlay()">Auto ▶</button>
+      <button onclick="pause()">Pause ⏸</button>
+      <button class="clear-btn" onclick="resetAll()">Clear 🧹</button>
+    </div>
+
+    <div id="display"></div>
+    <div id="decimal"></div>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="panel">
+    <h2>Step Info</h2>
+
+    <div id="infoBox">
+      <p class="label">Bit</p>
+      <p id="bitVal">-</p>
+
+      <p class="label">Shift</p>
+      <p id="shiftVal">-</p>
+
+      <p class="label">Partial</p>
+      <p id="partialVal">-</p>
+
+      <p class="label">Explanation</p>
+      <p id="explainVal">Start to see steps</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
