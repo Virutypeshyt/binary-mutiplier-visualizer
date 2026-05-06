@@ -92,7 +92,6 @@ binary-learning-simulator/
 
 🌐 Live Demo
 
-👉 Add your deployed link here
 
 https://virutypeshyt.github.io/binary-mutiplier-visualizer/
 
